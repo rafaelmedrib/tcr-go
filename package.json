@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "type": "module",
     "scripts": {
       "build": "babel src -d dist",
       "test": "npx mocha -w --parallel test/*.test.js",
